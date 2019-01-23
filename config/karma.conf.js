@@ -6,6 +6,9 @@ module.exports = function(config) {
 			'node_modules/angular/angular.js',
 			'node_modules/angular-ui-router/release/angular-ui-router.js',
 			'bower_components/angular-mocks/angular-mocks.js',
+			'app/home/home.module.js',
+			'app/home/*.js',
+			'app/app.js',
 			'tests/*.js',
 			// fixtures
 			 {pattern: '**/**/*.json', watched: true, served: true, included: false}
