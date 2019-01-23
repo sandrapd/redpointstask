@@ -3,15 +3,16 @@
 
 	angular.module('home').controller('homeController', homeController);
 
-	homeController.$inject = ['homeService'];
+	homeController.$inject = ['homeService', '$state'];
 
-	function homeController(homeService) {
+	function homeController(homeService, $state) {
 
 		var vm = this;
 
 		vm.initModel = initModel;
 		vm.search = search;
 		vm.moreItems = moreItems;
+		vm.goToDetail = goToDetail;
 
 		initModel();
 
@@ -86,6 +87,13 @@
 			} else {
 				vm.model.config.showSearch += 4;
 			}
+		}
+
+		function goToDetail(movie) {
+			var params = {
+				id: movie.id
+			}
+			$state.go('detail', {params: params});
 		}
 	}
 })();
