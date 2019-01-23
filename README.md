@@ -1,12 +1,14 @@
 # redpoints task
 
+**You will need to have installed npm, bower and grunt. If you don't, install them before**
+
 1.- Clone git repository
 
 	git clone https://github.com/spd2492/redpointstask/
 
 2.- Go to the directory where you have cloned the repository
 
-3.- Install dependencies
+3.- Install dependencies 
 	
 	npm install
 	bower install
