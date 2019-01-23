@@ -1,0 +1,47 @@
+<div class="menu">
+	<ul>
+		<li>
+			Home
+		</li>
+	</ul>
+</div>
+
+<div class="header">
+	<div class="input-group mb-3">
+		<input type="text" class="form-control" placeholder="Movie" ng-model="vm.model.movieSearched">
+		<button type="button" class="btn-bar btn btn-primary" ng-click="vm.search()">Search</button>
+	</div>
+</div>
+
+<div class="search" ng-if="vm.model.search.length > 0">
+	<div class="results"> 
+		<div class="mycard" ng-repeat="movie in vm.model.search | limitTo: vm.model.config.showSearch">
+			<div class="mycard-body">
+				<div class="img"><img ng-src="{{movie.image}}" style="border-radius: 4px 4px 0px 0px"></div>
+				<p class="mycard-text" id="mycard-text">{{movie.title}}</p>
+				<div class="tags">
+					<div class="tag" ng-repeat="categ in movie.genre_ids | limitTo: 3">{{vm.model.config.categories[categ]}}</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<span ng-if="vm.model.search.length > vm.model.config.showSearch" class="showMore" ng-click="vm.moreItems('search')">Show more ...</span>
+</div>
+<div class="popular">
+	<h1 class="titleSection">Popular Movies</h1>
+	<div class="results">
+		<div class="mycard" ng-repeat="movie in vm.model.popular | limitTo: vm.model.config.showPopular">
+			<div class="mycard-body" ng-click="vm.goToDetail(movie)">
+				<div class="img">			
+					<img ng-src="{{movie.image}}" style="border-radius: 4px 4px 0px 0px">
+				</div>
+				<p class="mycard-text" id="mycard-text">{{movie.title}}</p>
+				<div class="score">{{movie.vote_average}}</div>
+				<div class="tags">
+					<div class="tag" ng-repeat="categ in movie.genre_ids | limitTo: 3">{{vm.model.config.categories[categ]}}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<span ng-if="vm.model.popular.length > vm.model.config.showPopular" class="showMore" ng-click="vm.moreItems('popular')">Show more ...</span>
+</div>
