@@ -136,4 +136,156 @@ body {
 	color: white;
 }
 
+
+/*/Detail page*/
+
+.detail {
+	display: inline-flex;
+	font-family: sans-serif;
+	width: 100%;
+	margin: 3%;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.detailTitle{
+	font-family: sans-serif !important;
+	text-align: center;
+	margin: 4%;
+}
+.detailImg {
+	flex: 0 0 150px;
+}
+
+.detailInfo {
+	font-family: sans-serif;
+	width: 65%;
+	padding: 2%;
+}
+
+.detailDescription {
+	font-family: sans-serif;
+	padding: 3%;
+	text-align: justify;
+}
+
+.detailRate {
+	font-family: sans-serif;
+	padding: 4%;
+}
+
+.review{
+	font-family: sans-serif;
+	background: white;
+	border: 1px solid #ccc;
+	border-style: dashed;
+	border-radius: 5px;
+	flex-flow: wrap;
+	padding: 2%;
+	margin: 5%;
+	margin-bottom: 0px;
+	flex-grow:1;
+	box-sizing: border-box;
+}
+
+.titleRev{
+	font-family: sans-serif;
+	display: inline-flex;
+	width: 100%;
+}
+
+.descriptionRev{
+	margin: 1%;
+	font-family: sans-serif;
+	text-align: justify;
+	font-size: 12px;
+}
+
+.nameRev {
+	font-family: sans-serif;
+	margin-left: 4%;
+	margin-top: 2%;
+	font-weight: bold;
+}
+
+.starRate {
+	float: right;
+	position: relative;
+	bottom: 64%;
+	width: 15%;
+	text-align: right;
+}
+
+.detailCateg{
+	font-family: sans-serif;
+	display: inline-flex;
+	flex-flow: wrap;
+	width: 100%;
+	justify-content: center;
+}
+
+.tagDetail{
+	font-family: sans-serif;
+	text-align: center;
+	color: black;
+	background: #a8d4b2;
+	font-size: 10px;
+	padding: 1% 2%;
+	margin-right: 2%;
+	border-radius: 5px;
+}
+
+.detailReviews {
+	font-family: sans-serif;
+	width: 100%;
+	flex-flow: wrap;
+	margin: auto;
+	text-align: center;
+	display: inline-flex;
+}
+
+.detailPopularity {
+	font-family: sans-serif;
+	margin: 3%;
+}
+
+.starRate{
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+	margin: 3%;
+}
+
+.starDetail .star {
+	float: right;
+	background: url('../assets/empty_star.png') no-repeat;
+	width: 30px;
+	height: 30px;
+}
+
+.starDetail .star:hover {
+	background: url('../assets/star.png') no-repeat;
+	width: 30px;
+	height: 30px;
+}
+
+.starDetail .star:hover ~ .star {
+	background: url('../assets/star.png') no-repeat;
+	width: 30px;
+	height: 30px;
+}
+
+.starDetail .star:active {
+	background: url('../assets/star.png') no-repeat;
+	width: 30px;
+	height: 30px;
+}
+
+.starDetail .star:active ~ .star {
+	background: url('../assets/star.png') no-repeat;
+	width: 30px;
+	height: 30px;
+}
+
 @import '~bootstrap/dist/css/bootstrap.min.css';

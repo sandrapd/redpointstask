@@ -7,7 +7,9 @@ module.exports = function(config) {
 			'node_modules/angular-ui-router/release/angular-ui-router.js',
 			'bower_components/angular-mocks/angular-mocks.js',
 			'app/home/home.module.js',
+			'app/detail/detail.module.js',
 			'app/home/*.js',
+			'app/detail/*.js',
 			'app/app.js',
 			'tests/*.js',
 			// fixtures

@@ -1,0 +1,56 @@
+<div class="menu">
+	<ul>
+		<li ng-click="vm.goHome()">
+			Home
+		</li>
+	</ul>
+</div> 
+<div ng-if="!vm.model.config.error">
+	<div class="detail">
+		<div class="detailImg">
+			<img style="" ng-src="{{vm.model.movie.image}}">
+		</div>
+		<div class="detailInfo">
+			<div class="detailTitle"><h1>{{vm.model.movie.title}}</h1></div>
+			<div class="detailDescription">{{vm.model.movie.overview}}</div>
+			<!--		<div class="detailRate">Aqui van las estrellas para ratear</div>-->
+			<div class="detailPopularity" ng-if="vm.model.movie.vote_average >= 5">
+				Popularity: <span style="color: green"> {{vm.model.movie.vote_average}} </span> - ({{vm.model.movie.vote_count}} votes)
+			</div>
+			<div class="detailPopularity" ng-if="vm.model.movie.vote_average < 5">
+				Popularity: <span style="color: red"> {{vm.model.movie.vote_average}} </span> - ({{vm.model.movie.vote_count}} votes)
+			</div>
+			<div class="detailPopularity">
+				<span>Credits: </span>
+				<div ng-repeat="character in vm.model.cast | limitTo: 3" style="font-size:13px">
+					{{character.name}} --- {{character.character}}
+				</div>
+			</div>
+			<div class="detailCateg">
+				<div class="tagDetail" ng-repeat="categ in vm.model.movie.genres" style="font-size:13px">
+					{{categ.name}}
+				</div>
+			</div>
+			<div class="starRate">
+				<span style="margin-right: 8%;margin-top: 1%;">Would you like to rate this movie?</span> 
+				<div class="starDetail">
+					<div ng-repeat="i in [0,1,2,3,4]" class="star" style="width: 40px" ng-click="vm.rate()"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div ng-if="vm.model.reviews.length > 0" class="detailReviews">
+		<h2 style="width:100%;">What people think about it?</h2>
+		<div class="review" ng-repeat="review in vm.model.reviews">
+			<div class="titleRev">
+				<div class="iconQuotation"> 
+					<img style="width: 70px;" src="https://static.thenounproject.com/png/19279-200.png">
+				</div>
+				<div class="nameRev">{{review.author}}</div>
+			</div>
+			<div class="descriptionRev"><span>{{review.content}}</span></div>
+		</div>
+	</div>
+	<div ng-if="vm.model.reviews.length === 0" class="noReviews">
+		<span>There is no review</span>
+	</div>
