@@ -1,0 +1,359 @@
+{
+    "page": 1,
+    "total_results": 27,
+    "total_pages": 2,
+    "results": [
+        {
+            "vote_count": 5453,
+            "id": 11036,
+            "video": false,
+            "vote_average": 7.8,
+            "title": "The Notebook",
+            "popularity": 20.315,
+            "poster_path": "/gMfstesBXKdsHToAUXVPHujUDfb.jpg",
+            "original_language": "en",
+            "original_title": "The Notebook",
+            "genre_ids": [
+                10749,
+                18
+            ],
+            "backdrop_path": "/AprhfmDEwy14xyjaAlcwdLolLjq.jpg",
+            "adult": false,
+            "overview": "An epic love story centered around an older man who reads aloud to a woman with Alzheimer's. From a faded notebook, the old man's words bring to life the story about a couple who is separated by World War II, and is then passionately reunited, seven years later, after they have taken different paths.",
+            "release_date": "2004-06-25"
+        },
+        {
+            "vote_count": 5,
+            "id": 341104,
+            "video": false,
+            "vote_average": 7.4,
+            "title": "Notebook",
+            "popularity": 1.019,
+            "poster_path": "/pv3gub5Z1tJvCCSfYoXzF09O5xI.jpg",
+            "original_language": "ml",
+            "original_title": "നോട്ട്ബുക്ക്\u200c",
+            "genre_ids": [
+                18,
+                10751
+            ],
+            "backdrop_path": "/kPrk0hKRafnPjFBOXDQme0slc50.jpg",
+            "adult": false,
+            "overview": "Sarah, Sreedevi and Pooja are best friends who are studying in the same school. However, problems start brewing in their lives when Sreedevi gets pregnant.",
+            "release_date": "2006-12-22"
+        },
+        {
+            "vote_count": 6,
+            "id": 145720,
+            "video": false,
+            "vote_average": 5.8,
+            "title": "Notebook",
+            "popularity": 0.6,
+            "poster_path": "/oqphEGH44tXxAeijVUpMXW7NGl3.jpg",
+            "original_language": "en",
+            "original_title": "Notebook",
+            "genre_ids": [],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "",
+            "release_date": "1963-12-31"
+        },
+        {
+            "vote_count": 55,
+            "id": 449019,
+            "video": false,
+            "vote_average": 6.1,
+            "title": "Sara's Notebook",
+            "popularity": 7.499,
+            "poster_path": "/m9FODCCEse9e32sqso14Gpe1RZN.jpg",
+            "original_language": "es",
+            "original_title": "El cuaderno de Sara",
+            "genre_ids": [
+                53
+            ],
+            "backdrop_path": "/nT0HGpCfTwtVSGxEpqhj3dKtTSo.jpg",
+            "adult": false,
+            "overview": "Laura has spent years looking for her sister Sara who went missing in the depths of the jungle in the Congo. Neither the NGO she works for, nor the embassy, have news on her whereabouts until a photo appears of Sara in a mining town. Apparently, Sara is being held captive by The Hawk, the fearsome rebel leader who controls the mafias behind the prized mineral coltan.",
+            "release_date": "2018-02-02"
+        },
+        {
+            "vote_count": 0,
+            "id": 508774,
+            "video": false,
+            "vote_average": 0,
+            "title": "Notebook from My Mother",
+            "popularity": 0.896,
+            "poster_path": "/8TAUBA2vDoD2cesOUDlnjIzt993.jpg",
+            "original_language": "ko",
+            "original_title": "엄마의 공책",
+            "genre_ids": [
+                18,
+                10751
+            ],
+            "backdrop_path": "/8UKiJxSQuTBBKasuGX3rPBmfVpl.jpg",
+            "adult": false,
+            "overview": "A diligent mother who runs a side-dish store keeps calling her son, a part time teacher, incompetent. The son resents his mother’s prickliness, but he isn’t very sweet to her either. One day, all of a sudden, his mother gets dementia.",
+            "release_date": "2018-03-15"
+        },
+        {
+            "vote_count": 0,
+            "id": 458099,
+            "video": false,
+            "vote_average": 0,
+            "title": "The Daydreamer's Notebook",
+            "popularity": 0.6,
+            "poster_path": "/ysT4kefZE5PMQGGOjIgJSwozaap.jpg",
+            "original_language": "en",
+            "original_title": "The Daydreamer's Notebook",
+            "genre_ids": [],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "An anthology of seven short, experimental films.The films reflect the filmmaker's obsession with daydreaming in the work he's created over 40 years.",
+            "release_date": "2017-04-18"
+        },
+        {
+            "vote_count": 3,
+            "id": 104901,
+            "video": false,
+            "vote_average": 5.3,
+            "title": "From the Notebook of...",
+            "popularity": 0.762,
+            "poster_path": "/A0LwuRxzLhkWSGylszPLGFOZGMf.jpg",
+            "original_language": "en",
+            "original_title": "From the Notebook of...",
+            "genre_ids": [
+                99
+            ],
+            "backdrop_path": "/iMTod009PdlPAm6jP1Xb6I2LBwk.jpg",
+            "adult": false,
+            "overview": "From the Notebook Of... was shot in Florence and takes as its point of departure Leonardo da Vinci's notebooks and Paul Valéry's essay on da Vinci's process. These two elements suggest an implicit comparison between the treatment of space in Renaissance art and the moving image. The film marks a critical development in the artist's work in that he repeatedly employs a series of rapid pans and upward tilts along the city's buildings or facades, often integrating glimpses of his own face. As Beavers notes in his writing on the film, the camera movements are tied to the filmmakers' presence and suggests his investigative gaze.",
+            "release_date": "2000-09-08"
+        },
+        {
+            "vote_count": 0,
+            "id": 427690,
+            "video": false,
+            "vote_average": 0,
+            "title": "The Italian Notebook",
+            "popularity": 0.6,
+            "poster_path": "/wplplQ69HLoGuFOlK9Vknpl4LqA.jpg",
+            "original_language": "en",
+            "original_title": "The Italian Notebook",
+            "genre_ids": [],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "A record of a journey through Italy, filmed in 1967.",
+            "release_date": "1967-01-01"
+        },
+        {
+            "vote_count": 0,
+            "id": 532922,
+            "video": false,
+            "vote_average": 0,
+            "title": "Cinematic Notebook: October 2017",
+            "popularity": 0.6,
+            "poster_path": "/nibHdBnlkwQTLYPYSO47FSohguc.jpg",
+            "original_language": "en",
+            "original_title": "Cinematic Notebook: October 2017",
+            "genre_ids": [],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "An abstract journalistic collage that archives the month of October, 2017.",
+            "release_date": "2018-02-02"
+        },
+        {
+            "vote_count": 0,
+            "id": 518970,
+            "video": false,
+            "vote_average": 0,
+            "title": "The Closed Notebook",
+            "popularity": 0.6,
+            "poster_path": "/h4f3RTc33CnDvRgdG3HLsLbXird.jpg",
+            "original_language": "he",
+            "original_title": "המחברת הסגורה",
+            "genre_ids": [
+                35,
+                10749
+            ],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "A high-school girl recalls the events of the last summer of her life. Mainly, her relationship with an autistic fellow class member. A parody of the major tropes usually found in high-school level student films; including the cinematography and editing style, plot structure and production value.",
+            "release_date": "2014-05-21"
+        },
+        {
+            "vote_count": 0,
+            "id": 392666,
+            "video": false,
+            "vote_average": 0,
+            "title": "The Green Notebook",
+            "popularity": 0.6,
+            "poster_path": "/wDjQr4oN3jSdKUEZhQkJO0wZlVt.jpg",
+            "original_language": "cs",
+            "original_title": "Zelená knížka",
+            "genre_ids": [
+                18
+            ],
+            "backdrop_path": "/dF8Et4GvYGdFTHO04yMSZd2RpsI.jpg",
+            "adult": false,
+            "overview": "",
+            "release_date": "1948-04-12"
+        },
+        {
+            "vote_count": 2,
+            "id": 390470,
+            "video": false,
+            "vote_average": 8,
+            "title": "Notebook from China",
+            "popularity": 0.6,
+            "poster_path": "/7PCZf0VKSXl1hia8L3XwYeLuRgs.jpg",
+            "original_language": "en",
+            "original_title": "Notater fra Kina",
+            "genre_ids": [],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "In 1984 Jørgen Leth, cinematographer Dan Holmberg and sound recordist Niels Torp travelled some 6,000 kilometres by train through China. The result is a very calm, beautifully perceived travelogue borne by unprejudiced curiosity and observational ability.",
+            "release_date": "1987-02-12"
+        },
+        {
+            "vote_count": 0,
+            "id": 294913,
+            "video": false,
+            "vote_average": 0,
+            "title": "Be with Me (The Notebook)",
+            "popularity": 0.6,
+            "poster_path": null,
+            "original_language": "en",
+            "original_title": "Be with Me (The Notebook)",
+            "genre_ids": [
+                18,
+                35
+            ],
+            "backdrop_path": "/2w4Oj583cyXsD8XRLJu10HyoEZl.jpg",
+            "adult": false,
+            "overview": "A woman walks into a video store and makes a sad, strange request.",
+            "release_date": "2014-06-21"
+        },
+        {
+            "vote_count": 0,
+            "id": 400684,
+            "video": false,
+            "vote_average": 0,
+            "title": "Achako's Notebook of Youth: Tokyo",
+            "popularity": 0.6,
+            "poster_path": null,
+            "original_language": "ja",
+            "original_title": "アチャコ青春手帖　東京篇",
+            "genre_ids": [
+                35
+            ],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "Japanese comedy film.",
+            "release_date": "1952-08-28"
+        },
+        {
+            "vote_count": 0,
+            "id": 429847,
+            "video": false,
+            "vote_average": 0,
+            "title": "Film Notebook: Part 1 (For Saul)",
+            "popularity": 0.6,
+            "poster_path": null,
+            "original_language": "en",
+            "original_title": "Film Notebook: Part 1 (For Saul)",
+            "genre_ids": [],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "Film Notebook Part 1 from 1975 is a beautiful collection of daily fragments which Keller shot from her life the way one would write in a journal. She documents the world around her in a spontaneous home movie fashion then employs meticulous editing, making subtly poetic connections between shots and throughout the film.",
+            "release_date": "1975-01-01"
+        },
+        {
+            "vote_count": 1,
+            "id": 117800,
+            "video": false,
+            "vote_average": 8,
+            "title": "A Wanderer's Notebook",
+            "popularity": 0.621,
+            "poster_path": "/symyc8YgFh7LVemM728sQRkABDD.jpg",
+            "original_language": "ja",
+            "original_title": "Hourou-ki",
+            "genre_ids": [
+                18
+            ],
+            "backdrop_path": "/6HatW8K55wp2PzYw80prQ51hst0.jpg",
+            "adult": false,
+            "overview": "Considered one of the finest late Naruses and a model of film biography, A Wanderer’s Notebook features remarkable performances by Hideko Takamine – Phillip Lopate calls it “probably her greatest performance” – and Kinuyo Tanaka as mother and daughter living from hand to mouth in Twenties Tokyo. Based on the life and career of Fumiko Hayashi, the novelist whose work Naruse adapted to the screen several times, A Wanderer’s Notebook traces her bitter struggle for literary recognition in the first half of the twentieth century – her affairs with feckless men, the jobs she took to survive (peddler, waitress, bar maid), and her arduous, often humiliating attempts to get published in a male-dominated culture.",
+            "release_date": "1962-09-29"
+        },
+        {
+            "vote_count": 0,
+            "id": 400683,
+            "video": false,
+            "vote_average": 0,
+            "title": "Achako's Notebook of Youth 4: Happy Marriage",
+            "popularity": 0.6,
+            "poster_path": "/uUrldNAtgndwoZecAgW3FwIaANJ.jpg",
+            "original_language": "ja",
+            "original_title": "アチャコ青春手帖第4話　めでたく結婚の巻",
+            "genre_ids": [
+                35
+            ],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "Fourth installment in the \"Achako's Notebook of Youth\" series.",
+            "release_date": "1953-06-03"
+        },
+        {
+            "vote_count": 33,
+            "id": 199615,
+            "video": false,
+            "vote_average": 6.8,
+            "title": "The Notebook",
+            "popularity": 3.102,
+            "poster_path": "/g7TCTCOiQGE0HtIx4oBJT4dNgIi.jpg",
+            "original_language": "hu",
+            "original_title": "A Nagy Füzet",
+            "genre_ids": [
+                18,
+                10752
+            ],
+            "backdrop_path": "/qfl9AMqegW9Yfb36qFhQZUNhVOf.jpg",
+            "adult": false,
+            "overview": "In a village on the Hungarian border, two young brothers grow up during war time with their cruel grandmother and must learn every trick of evil to survive in the absurd world of adults.",
+            "release_date": "2013-07-03"
+        },
+        {
+            "vote_count": 3,
+            "id": 335210,
+            "video": false,
+            "vote_average": 7.7,
+            "title": "Fellini: A Director’s Notebook",
+            "popularity": 0.6,
+            "poster_path": "/736Wck0ZX5r9qmH3jZZcCXTSMY0.jpg",
+            "original_language": "it",
+            "original_title": "Block-notes di un regista",
+            "genre_ids": [
+                99
+            ],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "Fellini discusses his views of making motion pictures and his unorthodox procedures. He seeks inspiration in various out of the way places. During this film viewers go with him to the Colisseum at night, on a subway ride past Roman ruins, to the Appian Way, to a slaughterhouse, and on a visit to Marcello Mastroianni's house. Fellini also is seen in his own office interviewing a series of unusual characters seeking work or his help.",
+            "release_date": "1969-03-15"
+        },
+        {
+            "vote_count": 0,
+            "id": 505099,
+            "video": false,
+            "vote_average": 0,
+            "title": "Elish's Notebooks",
+            "popularity": 0.6,
+            "poster_path": "/bFw4P0DsoDzHHf9bi4RasfidplO.jpg",
+            "original_language": "en",
+            "original_title": "Elish's Notebooks",
+            "genre_ids": [],
+            "backdrop_path": null,
+            "adult": false,
+            "overview": "82-year-old Elisheva Rise passed away. After her death, her children clear out her home, and find some journals. She secretly wrote to each of her seven children journals documenting 57 years, from their birth to the day she died. It was her life's work. Every evening she would sit in her home in Kibbutz Ein Tzurim and write to her children, whom she had never hugged nor kissed.  Now, they open the journals for the first time. Following the treasure she left behind, they embark on an emotional and painful journey, learning about childhood, motherhood, and parenting.",
+            "release_date": "2017-05-01"
+        }
+    ]
+}
