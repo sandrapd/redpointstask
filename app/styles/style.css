@@ -20,8 +20,8 @@ body {
 }
 
 .mycard{
-	width: 188px;
-	flex: 0 0 185px;
+	/*width: 188px;*/
+	/*flex: 0 0 185px;*/
 	background: white;
 	margin: 2%;
 	border-radius: 4px;
@@ -30,18 +30,19 @@ body {
 }
 
 .tags{
-	display: flex;
+	display: inline-flex;
 	padding: 2%;
-	margin: 2%;
+	/*margin: 2%;*/
 	justify-content: flex-start;
+	width:100%;
 }
 
 .tag{
-	flex: 0 0 55px;
+	flex: 0 0 86px;
 	font-family: sans-serif;
 	text-align: center;
 	font-size: 10px;
-	margin: auto;
+	/*margin: auto;*/
 	color: black;
 	background: #fdd9b1;
 	padding: 1% 3%;
@@ -69,11 +70,12 @@ body {
 
 .results{
 	padding: 5%;
-	display: flex;
+	display: inline-flex;
+	width: 100%;
 	flex-wrap: wrap;
 	align-items:stretch;
 	align-content:center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .mycard-text{
@@ -82,13 +84,15 @@ body {
 	padding: 5%;
 	text-overflow: ellipsis;
 	overflow: hidden;
-	white-space: nowrap;
+	width: 184px;
+	white-space: nowrap; 
 }
 
 .img{
 	background: #ccc;
 	padding: 0px;
 	margin: 0px;
+	height: 278px;
 }
 
 .score{
@@ -129,7 +133,7 @@ body {
 .footer {
 	font-family: sans-serif;
 	background: black;
-	height: 30px;
+	/*! height: 30px; */
 	font-size: 10px;
 	padding-top: 1%;
 	text-align: center;
@@ -140,13 +144,15 @@ body {
 /*/Detail page*/
 
 .detail {
-	display: inline-flex;
+	display: flex;
 	font-family: sans-serif;
 	width: 100%;
-	margin: 3%;
+	/*! margin: auto; */
 	flex-flow: row wrap;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: flex-start;
+	align-content: space-between;
+	padding: 2%;
 }
 
 .detailTitle{
@@ -160,14 +166,16 @@ body {
 
 .detailInfo {
 	font-family: sans-serif;
-	width: 65%;
+	width: 70%; 
 	padding: 2%;
+	flex: 1 0 content;
+	padding-left: 6%;
 }
 
 .detailDescription {
 	font-family: sans-serif;
-	padding: 3%;
-	text-align: justify;
+	/*! padding: 3%; */
+	/*! text-align: justify; */
 }
 
 .detailRate {
@@ -222,6 +230,7 @@ body {
 	display: inline-flex;
 	flex-flow: wrap;
 	width: 100%;
+	align-content:stretch;
 	justify-content: center;
 }
 
@@ -248,6 +257,7 @@ body {
 .detailPopularity {
 	font-family: sans-serif;
 	margin: 3%;
+	margin-left: 0px;
 }
 
 .starRate{
@@ -289,3 +299,4 @@ body {
 }
 
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
