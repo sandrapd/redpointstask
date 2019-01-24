@@ -4,7 +4,7 @@
 
 1.- Clone git repository
 
-	git clone https://github.com/spd2492/redpointstask/
+	git clone https://github.com/spd2492/redpointstask.git
 
 2.- Go to the directory where you have cloned the repository
 
