@@ -23,8 +23,8 @@
 				search:[],
 				config: {
 					categories: {},
-					showPopular: 8,
-					showSearch: 4
+					showPopular: 12,
+					showSearch: 12
 				}
 			};
 			if (!vm.model.config.key) {

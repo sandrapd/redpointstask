@@ -6,12 +6,12 @@
 	</ul>
 </div>
 
-<div class="header">
+<form class="header">
 	<div class="input-group mb-3">
 		<input type="text" class="form-control" placeholder="Movie" ng-model="vm.model.movieSearched">
-		<button type="button" class="btn-bar btn btn-primary" ng-click="vm.search()">Search</button>
+		<button type="submit" class="btn-bar btn btn-primary" ng-click="vm.search()">Search</button>
 	</div>
-</div>
+</form>
 
 <div class="search" ng-if="vm.model.search.length > 0">
 	<div class="results"> 
@@ -20,7 +20,7 @@
 				<div class="img"><img ng-src="{{movie.image}}" style="border-radius: 4px 4px 0px 0px"></div>
 				<p class="mycard-text" id="mycard-text">{{movie.title}}</p>
 				<div class="tags">
-					<div class="tag" ng-repeat="categ in movie.genre_ids | limitTo: 3">{{vm.model.config.categories[categ]}}</div>
+					<div class="tag" ng-repeat="categ in movie.genre_ids | limitTo: 2">{{vm.model.config.categories[categ]}}</div>
 				</div> 
 			</div>
 		</div>
@@ -38,7 +38,7 @@
 				<p class="mycard-text" id="mycard-text">{{movie.title}}</p>
 				<div class="score">{{movie.vote_average}}</div>
 				<div class="tags">
-					<div class="tag" ng-repeat="categ in movie.genre_ids | limitTo: 3">{{vm.model.config.categories[categ]}}</div>
+					<div class="tag" ng-repeat="categ in movie.genre_ids | limitTo: 2">{{vm.model.config.categories[categ]}}</div>
 				</div>
 			</div>
 		</div>
